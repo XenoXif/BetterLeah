@@ -1,0 +1,12 @@
+{
+   "Name": "BetterLeah",
+   "Author": "WitchWeed",
+   "Version": "1.0", 
+   "Description": "Overhauls and expands on Leah's dialogue before and after marriage. Adds and edits events, changes Leahs cabin after marriage",
+   "UniqueID": "WitchWeed.BetterLeah", 
+   "MinimumApiVersion": "2.0", 
+   "UpdateKeys": [], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

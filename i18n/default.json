@@ -1,0 +1,374 @@
+{
+	//General
+
+	"{{ModID}}.intro": "Hello, it's nice to meet you. $h#$e# You picked a good time to move here... The woods are full of good food in spring.",
+	"{{ModID}}.Resort_Bar": "The mocktails here are surprisingly good! $h", //vanilla edit when gift taste true
+	"{{ModID}}.Beach.1": "I came for the sound of the ocean. Beautiful, isn't it?", //vanilla- removed by canonexpanison
+	"{{ModID}}.Beach.2": "I know painting the sea is a bit cliche, but I still love doing it. $h#$b# The ocean is always changing.",
+
+	//Events
+
+	//Weekly Dialogue
+
+	"{{ModID}}.Mon.1": "", //vanilla
+	"{{ModID}}.Mon.2": "Have you ever tried the cider from the valley?#$e#Better yet, you could probably make your own cider on your farm. That would be amazing.$h", //requires canon dialogue
+	"{{ModID}}.Mon.3": "",
+	"{{ModID}}.Mon.4": "",
+	"{{ModID}}.Mon.5": "",
+
+	"{{ModID}}.Tue.1": "", //vanilla
+	"{{ModID}}.Tue.2": "Hi. Oh, you want to talk?#$e#The landscape around here gives me a lot of ideas. The terrain is almost like a sculpture itself.#$e#I don't make art for money. It's just an urge that I have.#$e#Farming seems like a very rewarding profession. You get to create delicious food for everyone!$h.", //requires canon dialogue(edits Tue8)
+	"{{ModID}}.Tue.3": "",
+	"{{ModID}}.Tue.4": "",
+	"{{ModID}}.Tue.5": "",
+
+	"{{ModID}}.Wed.1": "", //vanilla
+	"{{ModID}}.Wed.2": "Haha, yep. Same hairstyle today as always.#$e#It'll keep my hair out of your face if we're kissing, though.$l#$e#Oh! did I say that out loud?$h", //requires canon dialogue
+	"{{ModID}}.Wed.3": "",
+	"{{ModID}}.Wed.4": "",
+	"{{ModID}}.Wed.5": "",
+
+	"{{ModID}}.Thu.1": "", //vanilla
+	"{{ModID}}.Thu.2": "",
+	"{{ModID}}.Thu.3": "",
+	"{{ModID}}.Thu.4": "",
+	"{{ModID}}.Thu.5": "",
+
+	"{{ModID}}.Fri.1": "Sometimes, a strange feeling comes over me. My head becomes totally empty... and I feel completely at peace, even blissful.", //vanilla edit when gift taste true
+	"{{ModID}}.Fri.2": "",
+	"{{ModID}}.Fri.3": "",
+	"{{ModID}}.Fri.4": "",
+	"{{ModID}}.Fri.5": "",
+
+	"{{ModID}}.Sat.1": "", //vanilla
+	"{{ModID}}.Sat.2": "",
+	"{{ModID}}.Sat.3": " ",
+	"{{ModID}}.Sat.4": " ",
+	"{{ModID}}.Sat.5": " ",
+
+	"{{ModID}}.Sun.1": "If you hear any banging from inside my cabin, it's probably just me working on one of my sculptures.", //vanilla edit to change hut to cabin
+	"{{ModID}}.Sun.2": " ",
+	"{{ModID}}.Sun.3": " ",
+	"{{ModID}}.Sun.4": " ",
+
+
+	//Date and/or Season-Specific Dialogue
+
+	"{{ModID}}.Summer.Tue.1": "The simple things in life are best: a soft summer breeze, majestic clouds, and clean, fresh water.", //vanilla edit when gift taste true
+	"{{ModID}}.Summer.Tue.2": "One time, I went on a night hike with some friends and we unexpectedly wound up at an old orchard.#$b#The owner of the orchard invited us in. I remember that summer night air was so pure and warm. That was the first time I had real cider.#$e#What's your favorite summer memory, @?", //requires canon dialogue
+	"{{ModID}}.Fall.Mushrooms": "",
+	"{{ModID}}.Fall.Chilly": "",
+	"{{ModID}}.Winter.AlmostBirthday.": "",
+
+	//Festival Dialogue
+	//I'm not changing all of it but there are some lines that need editing either for platonic Maru reasons or I don't like it reasons
+
+	"{{ModID}}.fall16.1": "It's easy to forget how large pigs are until you're looking at them in person...",
+	"{{ModID}}.fall16.1.spouse": "Let me know when you're ready to go home, {{Nickname}}. I'll just be over here.",
+	"{{ModID}}.fall16.2.spouse": "Hi, {{Nickname}}. Good luck today in the competition. I just know you're going to shine!$0",
+	"{{ModID}}.spring24.1": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Oh, @... you look ${great^lovely^wonderful}$.#1|Maru and I usually come to this event as friends.#$b#It's like highschool prom all over again.$s",
+	"{{ModID}}.summer11.1": "Good thing I came with sunscreen.#$e#I feel as though I'm the only one who ever remembers to bring it.",
+	"{{ModID}}.summer11.1.spouse": "Here, {{Nickname}}. Let me put some more sunscreen on your shoulders.",
+	"{{ModID}}.summer11.2": "I hope you added something of high quality to the soup.#$e#We all want to leave a good impression on the Governor.",
+	"{{ModID}}.summer11.2.spouse": "Hot soup has never made sense to me as the centerpiece for a Summer festival.#$e#One of these years we should try a gazpacho.",
+
+	"{{ModID}}.FlowerDanceSpouse.1": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air, {{Nickname}}.$1",
+	"{{ModID}}.FlowerDanceSpouse.2": "Of course, {{Nickname}}! I was hoping you would ask.$l#$b#Not that I was ever really worried you wouldn't.$h",
+	"{{ModID}}.FlowerDanceSpouse.3": "I would love to. I don't even find it all that embarassing anymore!$h",
+	"{{ModID}}.FlowerDanceDecline": "Oh! Ah, no thank you.#$b#It's embarrassing enough without making a fool of myself in front of someone I barely know.$s",
+
+	//Marriage Dialogue
+	//Static Marriage Dialogue
+
+	"{{ModID}}.Marriage.spring_1": "The explosion of life at the start of a new year is invigorating, don't you think?#$e#Maybe I'll get my paperwork out of the way early today.",
+	"{{ModID}}.Marriage.spring_12": "Good luck in the egg hunt tomorrow!$h#$e#Of course I'll be there to watch, even if I'm not a big fan of the crowd...",
+	"{{ModID}}.Marriage.spring_23": "Will you... will you dance with me at the festival tomorrow, {{Nickname}}?$7#$e#It's one of my favorite parts of the year.$1",
+	"{{ModID}}.Marriage.summer_1": "Make sure you don't get sunburnt, {{Nickname}}!$8#$b#I've stocked up on sunscreen, so be sure to put some on before you go out.",
+	"{{ModID}}.Marriage.summer_8": "I didn't sleep so well last night... it's difficult to get comfortable in this heat.$s",
+	"{{ModID}}.Marriage.summer_10": "I'm always a little leery of the Luau soup.#$b#It can't be healthy to just toss a bunch of random ingredients into a pot, right?",
+	"{{ModID}}.Marriage.summer_15": "I sprinkled a little diatomaceous earth around to keep the ants out.#$e#I'm not going to share the kitchen with them!$a",
+	"{{ModID}}.Marriage.summer_27": "The days are going to start getting shorter soon.#$b#Sorry in advance if I seem a little withdrawn... lack of sunlight can have a negative impact on mood.",
+	"{{ModID}}.Marriage.fall_1": "Make sure and diversify your harvests this fall, {{Nickname}}.#$e#Or you could just fill every plot with pumpkins.$#b#I'll figure out what to cook with them!$h",
+	"{{ModID}}.Marriage.fall_8": "We have a lot to do to prepare for winter.#$b#You make sure we're stocked up on firewood and I'll get the extra blankets and winter coats out of storage.",
+	"{{ModID}}.Marriage.fall_15": "Tomorrow's the Fair. I'm interested to see what you've been saving for your grange display!$h",
+	"{{ModID}}.Marriage.fall_26": "Out of all the festivals, Spirit's Eve is easily my least favorite.#$b#I know it's all props and makeup, but I just don't find being scared any fun.",
+	"{{ModID}}.Marriage.winter_1": "Be sure to dress warmly in the coming weeks, {{Nickname}}.#$b#I know you and I know you'll be out of the house most days even if there's no farming to do!$h",
+	"{{ModID}}.Marriage.winter_7": "It might be nice to attend the festival tomorrow.#$b#Or we could stay in and drink cocoa. I'd be happy with either.#h",
+	"{{ModID}}.Marriage.winter_13": "Well... I'll be another year older tomorrow. Before I met you that would have bothered me.#$b#Now it almost feels like an accomplishment!#h",
+	"{{ModID}}.Marriage.winter_28": "I can't believe how quickly this year went by.#$b#Well! Here's to many more, huh?$h",
+
+	"{{ModID}}.jobLeave_Leah.1": "I have to go into the clinic today. Have a nice day, okay?",
+	"{{ModID}}.jobLeave_Leah.2": "I'm going in to work today. Let me know if you need anything from town while I'm there.",
+	"{{ModID}}.jobLeave_Leah.3": "Almost time for my morning walk to work! It's such a nice way to get regular exercise.$h",
+	"{{ModID}}.jobLeave_Leah.4": "Ah, I won't be able to finish my coffee before I leave for work...$s#$e#I guess I'll just take it with me.",
+	"{{ModID}}.jobLeave_Leah.5": "Good morning, {{Nickname}}. I'll be at the clinic today if you need me for anything.",
+	"{{ModID}}.jobLeave_Leah.6": "I have work to do at the clinic today. I'll see you tonight, {{Nickname}}.",
+	"{{ModID}}.jobReturn_Leah.1": "Hi, {{Nickname}}. Did you have a good day?#$e#My patients are still healthy, so I can't complain.$h",
+	"{{ModID}}.jobReturn_Leah.2": "I have to admit, I like going to work a lot more now that I have you to come home to.$h",
+	"{{ModID}}.jobReturn_Leah.3": "Oof... I'm exhausted. Being a doctor isn't a physically difficult job, but it's very emotionally demanding.",
+	"{{ModID}}.jobReturn_Leah.4": "Good evening, {{Nickname}}. I just got home a little bit ago. What have you been up to?",
+	"{{ModID}}.jobReturn_Leah.5": "The clinic was quiet today. In my line of work I suppose that's a good thing.",
+	"{{ModID}}.jobReturn_Leah.6": "What a long day... I think I'm going to relax for the rest of the night.",
+
+	"{{ModID}}.jobVisit.1": "Hi {{Nickname}}. What are you doing at the clinic?#$e#Ah, you just came to see me. That's nice.$h",
+	"{{ModID}}.jobVisit.2": "Oh, hello! Sorry, I'm a little busy right now.#$b#Not that it's not always good to see you.$1",
+	"{{ModID}}.jobVisit.3": "%Harvey is counting something under his breath and looks deep in thought. Maybe it's better to leave him be while he's working.",
+	"{{ModID}}.Marriage.Mon.0.1": "Hi! Did you forget something we needed to put on the grocery list?",
+	"{{ModID}}.Marriage.Mon.0.2": "Hello, {{Nickname}}. I'm just picking up some essentials.#$e#And maybe a few fancy spices.#$b#I don't know what I'll do with them yet, but that's part of the fun of it.$h",
+	"{{ModID}}.Marriage.Mon.0.3": "It's nice to come into town and see everyone from time to time.#$e#Somewhere other than the clinic, I mean.",
+	"{{ModID}}.Marriage.Mon.0.4": "Oh, good to see you. Did you come in to drop off some produce for Pierre?",
+	"{{ModID}}.Marriage.Mon.0.5": "Oh, you're here. Good timing; I wanted to ask you your thoughts on fettuccine versus pappardelle.",
+	"{{ModID}}.Marriage.Mon.0.6": "Hm... Pierre's out of the medium roast I like... I guess I could try a light roast?",
+	"{{ModID}}.Marriage.Mon.2.1": "%Harvey is completely absorbed in his book. The title reads: \"Radio Ettiquette: Don't Be a Knob\".",
+	"{{ModID}}.Marriage.Mon.2.2": "%Harvey is reading a book called \"Birds of Ferngill\". There's a very colorful parrot on the cover.",
+	"{{ModID}}.Marriage.Mon.2.3": "%\"Sustainable Farming Under Modern Capitalism\". Huh! Looks like Harvey's taking an interest in your business.",
+	"{{ModID}}.Marriage.Mon.2.4": "$query PLAYER_HAS_CHILDREN current#%The book's title reads \"101 Easy Experiments to Introduce Your Child to Science\".#%b#%Looks like someone's doing research.|%The book's title reads \"Historic Wineries of Ferngill\". Looks like someone's doing research.",
+	"{{ModID}}.Marriage.Mon.2.5": "%It looks like Harvey is reading a book called \"A Hip Pocket Guide to Ferngill Mushrooms\".#$b#%On the cover is a man holding a trumpet in one hand and a very large mushroom in the other.",
+	"{{ModID}}.Marriage.Mon.2.6.": "%Harvey's book is titled \"Oh! The Humanity! A History of Aircraft Disasters\". Sounds... fun?",
+
+	"{{ModID}}.spouseRoom_Leah.1": "No air-traffic this morning, {{Nickname}}. But it's still fun to break out the equipment now and then.",
+	"{{ModID}}.spouseRoom_Leah.2": "I'm working on a new model plane. It's so much more relaxing here than in my old apartment.",
+	"{{ModID}}.spouseRoom_Leah.3": "I just finished my latest model, {{Nickname}}. Would you like to see it?",
+	"{{ModID}}.spouseRoom_Leah.4": "It's nice having my own space just for my hobbies. I think it's encouraged me to pursue them more.",
+	"{{ModID}}.spouseRoom_Leah.5": "Hi, {{Nickname}}. Did you need something? Sorry, I was a little distracted.",
+	"{{ModID}}.spouseRoom_Leah.6": "If you ever wanted me to show you how to operate my radio, I'd be happy to.",
+
+	"{{ModID}}.OneKid_2": "I want to give %kid1 the best childhood possible.#$b#I think %farm Farm is the perfect place for that.$h",
+	"{{ModID}}.OneKid_3": "So far, I really like being a father!$h#$e#It's not as scary as I thought it would be.",
+	"{{ModID}}.TwoKids_2": "I already gave %kid1 and %kid2 their breakfasts. It's easy to feed them healthy food with so much fresh produce to work with.",
+	"{{ModID}}.TwoKids_3": "%kid1 was playing with one of my planes the other day.#$b#I'm glad I'm not the only one who enjoys them!$h",
+
+	"{{ModID}}.Good_0": "I still can barely believe we're married, {{Nickname}}. It just doesn't feel real sometimes...$1",
+	"{{ModID}}.Good_1": "I was so lonely before you came into my life... it was awful.$s#$b#Thank you for saving me from that.$1",
+	"{{ModID}}.Good_2": "I think I understand now why they call a spouse your \"other half\".#$b#It's like marrying you filled an empty place in me.$1",
+	"{{ModID}}.Good_3": "Oh, {{Nickname}}... you look so ${handsome^beautiful^amazing}$.$1#$e#I mean! Even more than usual.$7",
+	"{{ModID}}.Good_4": "The apartment was just somewhere I lived...#$b#Here, with you? This feels like a real home.$1",
+	"{{ModID}}.Good_5": "I was just admiring my wedding amulet... I never take it off, you know.$1",
+	"{{ModID}}.Good_6": "Be careful, for my sake? I know you're very capable, but I still have nightmares about losing you...$7",
+	"{{ModID}}.Good_7": "I appreciate how hard you work, {{Nickname}}.$h#$b#Though... maybe you could take tonight off? We could stay in and open a bottle of wine.$1",
+	"{{ModID}}.Good_8": "I never thought I'd be able to have this kind of life.#$b#I feel so incredibly lucky.$h",
+	"{{ModID}}.Good_9": "You keep my life interesting, {{Nickname}}. I don't think I'll ever get bored, living here!$h",
+
+	"{{ModID}}.Neutral_0": "I don't really have anything planned for today.#$e#I guess I could dust the shelves again...",
+	"{{ModID}}.Neutral_1": "How are we doing on groceries?",
+	"{{ModID}}.Neutral_2": "Maybe I'll start a new book. I have a couple I've been meaning to get to.",
+	"{{ModID}}.Neutral_3": "Sorry, {{Nickname}}, I can't talk for long. I have a lot of paperwork to get to today.",
+	"{{ModID}}.Neutral_4": "How long has it been since we sat down and talked?",
+	"{{ModID}}.Neutral_5": "{{Nickname}}? Is there anything you'd like me to get done today?",
+	"{{ModID}}.Neutral_6": "If you go into town later, could you ask Gunther if he has that book I ordered in from Zuzu Library?",
+	"{{ModID}}.Neutral_7": "I think we might be out of coffee.#$e#I do go through it kind of quickly.",
+	"{{ModID}}.Neutral_8": "I've certainly settled into a routine here.#$e#It would be nice to shake things up sometime.$s",
+	"{{ModID}}.Neutral_9": "Do you think you'll ever get bored of me?$s",
+
+	"{{ModID}}.Bad_0": "It feels like we're just not on the same frequency lately.$s",
+	"{{ModID}}.Bad_1": "*sigh*... I'm starting to like being at the clinic better than being at home.$s",
+	"{{ModID}}.Bad_2": "Maybe you could cook your own dinner tonight for a change, @.$a",
+	"{{ModID}}.Bad_3": "I feel like I must have done something wrong. You'd tell me if I had, right?$s",
+	"{{ModID}}.Bad_4": "Sometimes I feel like I'm just another decoration to you.$a",
+	"{{ModID}}.Bad_5": "Sometimes I worry you're out of the house so much just to avoid being around me.$s",
+	"{{ModID}}.Bad_6": "I still feel like something's missing in my life...$s#$e#maybe you aren't what I needed after all.$s",
+	"{{ModID}}.Bad_7": "Lately I feel like all I do is cook and clean.$s",
+	"{{ModID}}.Bad_8": "We never talk anymore, @. I miss that...$s",
+	"{{ModID}}.Bad_9": "Do you think we made the right choice, getting married? Sometimes I wonder.$s",
+
+	//Seasonal Marriage Dialogue - Spring
+	//A lot of this is the default since I didn't want to get rid of them entirely; it changes in other seasons
+
+	"{{ModID}}.Spring.Rainy_Day_0": "Spring rain is my favorite kind. It makes everything feel so fresh afterward.$h",
+	"{{ModID}}.Spring.Rainy_Day_1": "It was so incredibly lonely living above the clinic by myself... I'm much happier now.$h",
+	"{{ModID}}.Spring.Rainy_Day_2": "I woke up early, but I made sure not to wake you. You looked so peaceful.",
+	"{{ModID}}.Spring.Rainy_Day_3": "I don't mind the rain. Sure, I can't watch the planes go by, but I can still listen to the radio chatter.#$e#It makes the whole thing a little more mysterious.",
+	"{{ModID}}.Spring.Rainy_Day_4": "This is perfect weather for staying inside and reading the latest issue of \"Vascular Monthly\".#$e#It's more fun than it sounds!$h",
+	"{{ModID}}.Spring.Rainy_Night_0": "How was your day, {{Nickname}}? I caught up on some chores I wanted to get done.",
+	"{{ModID}}.Spring.Rainy_Night_1": "I took the day to check if there were any leaks.#$b#This place is water-tight! Robin did an incredible job fixing it up.$h",
+	"{{ModID}}.Spring.Rainy_Night_2": "You look a little soggy, {{Nickname}}.#$b#Still refusing to use an umbrella, huh?$h",
+	"{{ModID}}.Spring.Rainy_Night_3": "I always feel like I sleep better on rainy nights.#$b#The sound is incredibly soothing.",
+	"{{ModID}}.Spring.Rainy_Night_4": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [225 226 237 196 200]#$e#It's so nice having more time to cook.$h",
+
+	"{{ModID}}.Spring.Indoor_Day_0": "I think we're all striving to reach some kind of balance in life. Homeostasis, you know?#$e#For me, moving here was exactly what my body needed to find that balance.$l",
+	"{{ModID}}.Spring.Indoor_Day_1": "Good morning, {{Nickname}}! I made you a nutritious breakfast.[201]#$e#You're always so hard at work; you need your energy!$h",
+	"{{ModID}}.Spring.Indoor_Day_2": "I'm going to study the medical literature today. It's important for me to keep up-to-date so I can give my patients the best care possible!",
+	"{{ModID}}.Spring.Indoor_Day_3": "I'm going to listen to some jazz music and finalize my medical reports today. What do you have planned, {{Nickname}}?",
+	"{{ModID}}.Spring.Indoor_Day_4": "I was afraid of you when we first met. It's funny to think about now that we've come so far.$h",
+	"{{ModID}}.Spring.Indoor_Night_0": "You look like you could use a good massage tonight, {{Nickname}}.#$e#Luckily I spent the day brushing up on my understanding of the muscular system.",
+	"{{ModID}}.Spring.Indoor_Night_1": "I took it easy today... spent some time reading, fiddled with my radio, and worked on a model airplane.#$e#I feel like I've become much better at taking breaks since I married you.$h",
+	"{{ModID}}.Spring.Indoor_Night_2": "I hope you know that I don't mind if you stay out late occasionally.#$e#I know you have a lot to get done every day.",
+	"{{ModID}}.Spring.Indoor_Night_3": "It's really great to live somewhere as relaxing as %farm Farm.#$e#I feel like my blood pressure's improved significantly since I moved out here.$h",
+	"{{ModID}}.Spring.Indoor_Night_4": "Oh! Sorry, I was just daydreaming and forgot what I was going to do.#$e#About what? Oh... You know. Planes.$1",
+
+	"{{ModID}}.Spring.Outdoor_0": "The view from here is lovely. You've really done a great job with the place.$h",
+	"{{ModID}}.Spring.Outdoor_1": "It's good to stop working and breathe in the fresh %farm Farm air sometimes. Don't you think?",
+	"{{ModID}}.Spring.Outdoor_2": "I may not be the most exciting guy, but I'll stay loyal to you for the rest of my life.$l",
+	"{{ModID}}.Spring.Outdoor_3": "@... {{Nickname}}... you mean the world to me.$l",
+	"{{ModID}}.Spring.Outdoor_4": "Watching your crops grow has made me want to learn more about the science behind farming. It's more complicated than I thought!",
+	"{{ModID}}.Spring.patio_Leah.1": "You know, \"The Journal of Tendon Dynamics\" is actually bearable when I'm reading out here.",
+	"{{ModID}}.Spring.patio_Leah.2": "I know it's not quite as impressive as your farm, but I've grown to really enjoy tending my little garden.$h",
+	"{{ModID}}.Spring.patio_Leah.3": "I've started reading for pleasure more. It's nice to put down the medical literature sometimes.",
+	"{{ModID}}.Spring.patio_Leah.4": "I was thinking about planting some herbs. It would be nice to have fresh basil for homemade pesto.",
+
+	"{{ModID}}.Spring.funLeave_Leah.1": "I think I'll go out and get some fresh air today. It'll be nice to get out of the house.",
+	"{{ModID}}.Spring.funLeave_Leah.2": "Oh, {{Nickname}}! I was thinking of going out today. The valley is so nice this time of year.$h",
+	"{{ModID}}.Spring.funLeave_Leah.3": "One of these days I'd like to work up to real hiking.#$b#For now, though, going into town is a good start.",
+	"{{ModID}}.Spring.funReturn_Leah.1": "I had a nice day. Spending time alone now and then allows me to organize my thoughts.",
+	"{{ModID}}.Spring.funReturn_Leah.2": "Did you have a good day, {{Nickname}}?#$e#I'm a little tired, but the good kind of tired.",
+	"{{ModID}}.Spring.funReturn_Leah.3": "I saw a rare Southern Valley Mallard on my walk today!$h#$e#I wish I'd had a camera with me to take a picture. I did manage to pick up a feather, though. [444]",
+
+	"{{ModID}}.Spring.OneKid_0": "I always dreamed of having a family, you know.#$e#I used to think I'd be a bachelor forever... I love you so much.$1",
+	"{{ModID}}.Spring.OneKid_1": "I'm not actually that worried about %kid1 getting hurt out on the farm.#$b#One of the best things about kids is how sturdy they are. They're built to get into trouble.$h",
+	"{{ModID}}.Spring.TwoKids_0": "I believe a child should be allowed to play and explore to their heart's content. It's good to encourage their natural curiosity.",
+	"{{ModID}}.Spring.TwoKids_1": "Keeping track of two children is better exercise than anything else I've ever tried!$h",
+
+	//Seasonal Marriage Dialogue - Summer
+
+	"{{ModID}}.Summer.Rainy_Day_0": "Take care that you don't slip in the mud outside!#$e#I can't help but worry about you.",
+	"{{ModID}}.Summer.Rainy_Day_1": "This feels like a good day to stay in and work on one of my model planes.",
+	"{{ModID}}.Summer.Rainy_Day_2": "Hm... I was going to go for a walk today, but that might not be in the cards.",
+	"{{ModID}}.Summer.Rainy_Day_3": "If we're lucky, this rain will help cool things off a little.",
+	"{{ModID}}.Summer.Rainy_Day_4": "I think I'll catch up on my reading today. I just got the latest issue of \"Head, Shoulders, Knees and Toes\".",
+	"{{ModID}}.Summer.Rainy_Night_0": "Hi, {{Nickname}}. Did you have a productive day today?#$e#I bet the rain didn't slow you down any.$h",
+	"{{ModID}}.Summer.Rainy_Night_1": "I've been hearing scratching coming from under the porch at night.#$b#Do you think we might have raccoons?",
+	"{{ModID}}.Summer.Rainy_Night_2": "I never thought of myself as the \"rustic cabin\" kind of guy, but I've really taken a liking to it.$h",
+	"{{ModID}}.Summer.Rainy_Night_3": "Try not to track any mud inside, {{Nickname}}. I just mopped earlier.",
+	"{{ModID}}.Summer.Rainy_Night_4": "You look hungry, {{Nickname}}. Lucky for you, I decided to spend my day trying out a new recipe. [212 214 209 204]$h",
+
+	"{{ModID}}.Summer.Indoor_Day_0": "The sky looks great today... so clear!#$e#From now on, I'm only going to go into the clinic when I have appointments. Otherwise I can just work from home!",
+	"{{ModID}}.Summer.Indoor_Day_1": "Good morning, {{Nickname}}! I got up early to make you breakfast.[201]#$e#I hope me banging around in the kitchen didn't wake you up.",
+	"{{ModID}}.Summer.Indoor_Day_2": "Hm... what should I do today?#$e#Honestly, this heat makes me want to take a nap.$h",
+	"{{ModID}}.Summer.Indoor_Day_3": "I've been thinking... maybe I'll try iced coffee for a change.#$e#Variety is the spice of life, right?$h",
+	"{{ModID}}.Summer.Indoor_Day_4": "Days tend to be longest in Summer.#$b#That means more time to fill with whatever you like!",
+	"{{ModID}}.Summer.Indoor_Night_0": "I find most of the Summer bugs annoying, but I have to admit, the butterflies are nice.",
+	"{{ModID}}.Summer.Indoor_Night_1": "It's great living out here where there's relatively little light pollution.#$e#You can see almost every star in the sky.$1",
+	"{{ModID}}.Summer.Indoor_Night_2": "This house has surprisingly good acoustics.#$b#It's almost got me thinking about picking up piano again.",
+	"{{ModID}}.Summer.Indoor_Night_3": "Are there really animate skeletons in the mines?#$e#You know, in retrospect, I shouldn't have asked.$s",
+	"{{ModID}}.Summer.Indoor_Night_4": "...$1#$b#Oh, sorry. I just got caught up in looking at you.",
+
+	"{{ModID}}.Summer.Outdoor_0": "Whoof... it's hot out here. I might head inside again soon.",
+	"{{ModID}}.Summer.Outdoor_1": "I can't tell you how lucky I feel to get to spend my life with you.$1",
+	"{{ModID}}.Summer.Outdoor_2": "Have you noticed? There's a bird's nest up under the roof.#$e#%farm Farm is so full of life!",
+	"{{ModID}}.Summer.Outdoor_3": "This is so much nicer than being cooped up in the clinic all day.$l#$e#I love watching you work on the farm... hehe.$1",
+	"{{ModID}}.Summer.Outdoor_4": "Be sure to drink enough water today, {{Nickname}}. It's easy to get dehydrated in weather like this.",
+	"{{ModID}}.Summer.patio_Leah.1": "A bee landed on me earlier.#$b#Oh, don't worry! They don't sting unless you bother them. She went on her way eventually.$h",
+	"{{ModID}}.Summer.patio_Leah.2": "I might be overwatering my plants... I'm just worried about this heat drying them out!",
+	"{{ModID}}.Summer.patio_Leah.3": "I saw a rabbit past the fence not too long ago.#$b#If you're quiet he might come back.",
+	"{{ModID}}.Summer.patio_Leah.4": "Sometimes I think about bringing my radio equipment out here... but I'd just have to cart it back inside any time it rained.",
+
+	"{{ModID}}.Summer.funLeave_Leah.1": "I'm putting down the paperwork today and going out. I could use some time to myself.",
+	"{{ModID}}.Summer.funLeave_Leah.2": "I think I need to stretch my legs. I'll be back tonight, okay?",
+	"{{ModID}}.Summer.funLeave_Leah.3": "I'm going out today, {{Nickname}}. I'll let you know if I see any interesting wildlife!",
+	"{{ModID}}.Summer.funReturn_Leah.1": "I've heard this can be used to make an excellent risotto. I'd love to try making one sometime! [259 248]",
+	"{{ModID}}.Summer.funReturn_Leah.2": "I think I may have got a little bit of a sunburn, despite my best efforts... do my ears look red to you?",
+	"{{ModID}}.Summer.funReturn_Leah.3": "Sometimes I think I should get one of those mobile casette players.#$b#It would be nice to listen to music while I'm out walking.",
+
+	"{{ModID}}.Summer.OneKid_0": "I've found that a couple of minutes of some quiet jazz music puts %kid1 straight to sleep.#$b#I'm just glad something works reliably.$h",
+	"{{ModID}}.Summer.OneKid_1": "%kid1 almost yanked out a chunk of my mustache earlier.#$b#A strong grip is a good sign! It means motor development is proceeding at a healthy rate.",
+	"{{ModID}}.Summer.TwoKids_0": "I wonder if the kids are old enough to go out and catch fireflies...#$e#Oh, we'd set them free, of course. But they're fun to look at for a little while.",
+	"{{ModID}}.Summer.TwoKids_1": "%kid1 helped me make fruit juice popsicles yesterday.#$e#Well. I made the popsicles. %kid1 mostly handled eating them.$h",
+
+	//Seasonal Dialogue - Fall
+
+	"{{ModID}}.Fall.Rainy_Day_0": "Do you ever think about how the older we get, the faster time seems to go by?#$b#Ah, sorry. Days like this make me more contemplative than normal.",
+	"{{ModID}}.Fall.Rainy_Day_1": "The sound of the rain is almost like a natural drumline.#$b#I wonder what nature's equivalent to a saxophone is...?",
+	"{{ModID}}.Fall.Rainy_Day_2": "They're playing classic movies all day today on TV. I might see if \"The Zuzu City Express\" is on.",
+	"{{ModID}}.Fall.Rainy_Day_3": "You don't need to do any watering today, so why don't you stay in this morning?#$e#It would be nice to just sit and talk for a bit.",
+	"{{ModID}}.Fall.Rainy_Day_4": "I've heard that pumpkin flavored coffee is popular this time of year.#$e#I admit it does sound interesting...",
+	"{{ModID}}.Fall.Rainy_Night_0": "I spent today re-organizing the kitchen cabinets.#$e#I know it sounds boring, but I find that kind of thing relaxing. I can just put on some music and turn my brain off.",
+	"{{ModID}}.Fall.Rainy_Night_1": "I think the small moments in life are just as important as the big ones.#$e#Just being here with you and listening to the rain is enough for me.",
+	"{{ModID}}.Fall.Rainy_Night_2": "Wow, is it %time already? Today just flew by.#$e#I guess I must have been having fun.$h",
+	"{{ModID}}.Fall.Rainy_Night_3": "Hi. It's good to see you.$h#$e#Oh, me? I spent the day skimming through some medical journals.",
+	"{{ModID}}.Fall.Rainy_Night_4": "I decided to finally try out one of those recipes I had saved. I think it came out alright, but you tell me what you think! [230 235 236 237]$h",
+
+	"{{ModID}}.Fall.Indoor_Day_0": "Good morning, {{Nickname}}. I've been up for a while already.#$e#Sometimes it's nice to enjoy the early morning quiet.",
+	"{{ModID}}.Fall.Indoor_Day_1": "Here's your breakfast, {{Nickname}}, just how you like it. I think I got the consistency on the eggs just right this time. [201]$h",
+	"{{ModID}}.Fall.Indoor_Day_2": "If you see any edible mushrooms while you're out today, be sure to pick them up.#$e#There's nothing fresher than straight off the ground!$h",
+	"{{ModID}}.Fall.Indoor_Day_3": "Sometimes I wonder what my life would be like if you'd never read that letter from your Grandfather...#$b#I'm glad that you did.$1",
+	"{{ModID}}.Fall.Indoor_Day_4": "Did you sleep well last night, {{Nickname}}? I had the strangest dream...#$e#You were growing pumpkins, but they just kept growing until they were taller than I was! Weird, right?",
+	"{{ModID}}.Fall.Indoor_Night_0": "You know, there are so many good fishing spots in Pelican Town but I've never actually gone fishing.#$e#We should make a day of it sometime. Would you like that?",
+	"{{ModID}}.Fall.Indoor_Night_1": "I think there's an owl living in the woods around here.#$e#I've heard hooting at night before, but I've never managed to spot it.",
+	"{{ModID}}.Fall.Indoor_Night_2": "I didn't pick up any radio chatter today, but I did see several flocks of birds heading South.",
+	"{{ModID}}.Fall.Indoor_Night_3": "I'm due for an eye exam but I've been putting off scheduling one.#$e#They say doctors are the worst patients and I admit there's some truth to that.",
+	"{{ModID}}.Fall.Indoor_Night_4": "It's funny to think about how I used to be scared of getting old.#$b#I think what I was really scared of was getting old alone. I'd love to grow old with you.$1",
+
+	"{{ModID}}.Fall.Outdoor_0": "This is a very safe spot. You go on ahead and take care of business, don't worry about me.",
+	"{{ModID}}.Fall.Outdoor_1": "Are you thinking of decorating for Spirit's Eve?#$e#I never did when I lived alone, but then, there wasn't much point.",
+	"{{ModID}}.Fall.Outdoor_2": "You know, Fall foliage is only so colorful because all of the leaves are dying. It feels bittersweet, doesn't it?",
+	"{{ModID}}.Fall.Outdoor_3": "Crisp fall air... a hot cup of coffee... I can't imagine what else I could ask for.$h",
+	"{{ModID}}.Fall.Outdoor_4": "I've grown very fond of %farm Farm. I wouldn't want to live anywhere else.",
+	"{{ModID}}.Fall.patio_Leah.1": "These mushrooms are purely decorative. They're pretty, but no good for eating!",
+	"{{ModID}}.Fall.patio_Leah.2": "It's a little chilly out here today. Maybe I should have worn thicker socks.",
+	"{{ModID}}.Fall.patio_Leah.3": "Hm? Oh, sorry. I was completely caught up in this book. I've been on a historical fiction kick lately.",
+	"{{ModID}}.Fall.patio_Leah.4": "I should ask Leah to build me one of those decorative windmills of hers.#$b#I think it would look nice out here, don't you?",
+
+	"{{ModID}}.Fall.funLeave_Leah.1": "I think I'll go out today. There's something uniquely refreshing about crisp Fall air.",
+	"{{ModID}}.Fall.funLeave_Leah.2": "I'm going to be out of the house today, so don't worry if you come back and I'm not here.",
+	"{{ModID}}.Fall.funLeave_Leah.3": "I have some things I'd like to take care of in town. See you tonight?",
+	"{{ModID}}.Fall.funReturn_Leah.1": "I happened to come across a wild mushroom on my walk today. A few more of these and we could make a great pasta sauce. [257 281 404 430]",
+	"{{ModID}}.Fall.funReturn_Leah.2": "I know it's a little childish, but I do sometimes go out of my way to step on dry leaves.#$e#That sound is one of the best parts of Fall.$h",
+	"{{ModID}}.Fall.funReturn_Leah.3": "I saw the strangest thing today: a mushroom as tall as a tree.#$e#I didn't know they could get that big. It was a little intimidating.",
+
+	"{{ModID}}.Fall.OneKid_0": "Don't worry about %kid1; I'll handle parenting duties today. You can focus on getting things done around the farm.",
+	"{{ModID}}.Fall.OneKid_1": "I suppose now that I have a child I'll have to warm up to Spirit's Eve.#$b#If %kid1 wants to go through the maze, though, that's all you.",
+	"{{ModID}}.Fall.TwoKids_0": "The house is really starting to feel full now with both %kid1 and %kid2 here.#$e#I like it; it's cozy.",
+	"{{ModID}}.Fall.TwoKids_1": "I think %kid1 and %kid2 are really bonding as siblings. I saw the two of them reading a book together earlier.#$e#Well. Looking at the pictures in a book, anyway. Close enough.",
+
+	//Seasonal Dialogue - Winter
+	//I believe some of these don't actually proc in winter, but I'm leaving them in anyway. Secret dialogue! If you're reading this file, hello, I hope you're having a good day. I just finished my last grad school class of the semester and I am feeling Grand :)
+
+	"{{ModID}}.Winter.Rainy_Day_0": "It's a little unusual for it to rain in Winter. I wonder if Spring is coming early this year?",
+	"{{ModID}}.Winter.Rainy_Day_1": "Make sure you stay dry today, {{Nickname}}. I don't want you to become hypothermic.",
+	"{{ModID}}.Winter.Rainy_Day_2": "There was some interesting chatter over the radio this morning.#$b#Apparently an Ember Airlines pilot had to make an emergency water landing.#$b#It was all anyone could talk about.$h",
+	"{{ModID}}.Winter.Rainy_Day_3": "How would you feel about soup for dinner tonight? This feels like soup weather.",
+	"{{ModID}}.Winter.Rainy_Day_4": "Have you got your flu shot yet, {{Nickname}}? It's best to do it sooner rather than later.",
+	"{{ModID}}.Winter.Rainy_Night_0": "Do they make heated weighted blankets?#$e#If they don't, they should. There must be a market for that.",
+	"{{ModID}}.Winter.Rainy_Night_1": "I checked the smoke detectors today.#$b#If we're going to have a fire going we should make sure that they're all functional.",
+	"{{ModID}}.Winter.Rainy_Night_2": "You look a little chilled, {{Nickname}}.#$b#Go and warm yourself up by the fire, alright? I'll make you something warm to drink.",
+	"{{ModID}}.Winter.Rainy_Night_3": "I know I'm usually a coffee guy, but tonight felt like it called for tea. Here, I made you a cup too. [StardropTea 614]",
+	"{{ModID}}.Winter.Rainy_Night_4": "I've been thinking about getting into journaling.#$e#I've heard it's good for a person's mental health, but I think I'd worry too much about making it look nice.",
+
+	"{{ModID}}.Winter.Indoor_Day_0": "Don't worry about getting me the perfect gift this year.#$b#I'd treasure anything you gave me.$1",
+	"{{ModID}}.Winter.Indoor_Day_1": "Don't forget to eat a healthy breakfast, {{Nickname}}. It's the best way to start your day! [201]",
+	"{{ModID}}.Winter.Indoor_Day_2": "Every year Maru gifts me a coffee mug with a different element from the periodic table on it.#$e#I'm hoping this year I'll get the last of the Halogens.$h",
+	"{{ModID}}.Winter.Indoor_Day_3": "I mixed hot cocoa powder into my coffee this morning. It's a very lazy way to make a mocha!$h",
+	"{{ModID}}.Winter.Indoor_Day_4": "I'm going to do laundry today. If you have anything you want washed, this is your last chance to put it in the hamper.",
+	"{{ModID}}.Winter.Indoor_Night_0": "You're as ${handsome^beautiful^perfect}$ as the day I married you.$1#$e#Too cheesy? Sorry, I get a little sentimental this time of year.",
+	"{{ModID}}.Winter.Indoor_Night_1": "I decided to go a little bit out of my comfort zone and try reading a mystery book.#$e#Did you know there's an entire genre called \"cozy mystery\"? It sounds contradictory but I'm actually enjoying it a lot!$h",
+	"{{ModID}}.Winter.Indoor_Night_2": "Maru once tried to explain something called \"Flight Simulator\" to me.#$b#I've never been fantastic with computers, but I might look into it.",
+	"{{ModID}}.Winter.Indoor_Night_3": "Don't forget to leave the taps running overnight to keep the pipes from freezing.#$e#I made that mistake once. Trust me.$s",
+	"{{ModID}}.Winter.Indoor_Night_4": "Did you hear? The Zuzu Underground Orchestra is releasing a new album this month.#$e#This will be the first one with the new cellist. We'll see how it turns out.",
+
+	"{{ModID}}.Winter.Outdoor_0": "Being able to see my own breath is always fun...$h#$b#Right up until it fogs up my glasses.$a",
+	"{{ModID}}.Winter.Outdoor_1": "They've started playing holiday music on all of the radio stations.#$b#I don't mind it as much as other people, but it's still nice to take a break from it out here where it's quiet.",
+	"{{ModID}}.Winter.Outdoor_2": "You can still get sunburnt in the Winter, you know. Protecting your skin is a year-round job.",
+	"{{ModID}}.Winter.Outdoor_3": "Are you planning out how you're going to organize your crops this Spring?#$b#Or are you going to play it by ear?",
+	"{{ModID}}.Winter.Outdoor_4": "Oh, good morning, {{Nickname}}. I was just enjoying the brisk morning air.",
+	"{{ModID}}.Winter.patio_Leah.1": "I'm taking the Winter break to decide what I want to plant out here come Spring.#$b#I was thinking tulips might be nice.",
+	"{{ModID}}.Winter.patio_Leah.2": "Hm... maybe I should ask Robin to build a roof over this patio.#$b#Then I could sit out here even in the snow or the rain.",
+	"{{ModID}}.Winter.patio_Leah.3": "The book I'm reading is set in a desert country.#$b#It's my theory that reading about a place where it's hot might fool my brain into thinking it's warm here too.#$e#There's no real science behind that, but hope springs eternal.$h",
+	"{{ModID}}.Winter.patio_Leah.4": "Hi, {{Nickname}}. Where are you headed today?",
+
+	"{{ModID}}.Winter.funLeave_Leah.1": "Alright... time to bundle up and run some errands. Do you need anything in town, {{Nickname}}?",
+	"{{ModID}}.Winter.funLeave_Leah.2": "Hm... we could use some more hand soap. I can go pick some up.#$e#Proper hand-washing is essential in the middle of cold and flu season.",
+	"{{ModID}}.Winter.funLeave_Leah.3": "I think it might be nice to get out of the house today.#$b#I feel like I'm starting to get cabin fever.",
+	"{{ModID}}.Winter.funReturn_Leah.1": "I tripped over this on my way home... it was hidden under the snow. [412 416 536 709 749]#$b#It looked like something you could use.$h",
+	"{{ModID}}.Winter.funReturn_Leah.2": "Phew! It's good to be home. What did you do today?#$b#Did you spend all day in the mines again?#h",
+	"{{ModID}}.Winter.funReturn_Leah.3": "Sorry I'm back a little late; I kept getting distracted.#$e#Oh, not by anything important. Mainly watching the birds.",
+
+	"{{ModID}}.Winter.OneKid_0": "It just ocurred to me that having a child means we can officially start establishing family holiday traditions.#$e#I'll have to think of some...",
+	"{{ModID}}.Winter.OneKid_1": "Did you want to do family postcards this year?#$b#I have some far-off relatives who I'm sure would love an update on how %kid1 is doing.",
+	"{{ModID}}.Winter.TwoKids_0": "%kid1 took a drink of my coffee earlier before I could take the cup away.#$b#I think that what's called a 'teaching moment'. There's a reason only grown-ups drink coffee.$h",
+	"{{ModID}}.Winter.TwoKids_1": "It's interesting how quickly children form distinct personalities.#$b#%kid1 and %kid2 are totally different, wouldn't you say?",
+
+	//Misc
+
+	"{{ModID}}.Killed.1": "Easy now, {{Nickname}}. Take it slow.",
+	"{{ModID}}.Killed.2": "You were found unconscious and in critical condition; there was no time to airlift you to Zuzu City.#$b#I had to perform an emergency surgery to stabilize you.$s",
+	"{{ModID}}.Killed.3": "You can stay here in the clinic until you get your feet back under you.",
+	"{{ModID}}.Killed.4": "Just be more careful out there, for my sake?#$b# I know I sometimes worry too much, but when this kind of thing happens it starts to feel justified.$s#$b# I don't know what I'd do if I ever lost you.",
+
+	"{{ModID}}.Rainy.1": "Hi @! It's good weather for staying inside and reading.#$e#So... have you read anything good lately?",
+	"{{ModID}}.Rainy.2": "Have you ever noticed that almost no one in this town uses an umbrella?#$e#I think I saw Sebastian with one, once...$s",
+	"{{ModID}}.Rainy.3": "I suppose it's nice to have a day off from watering your crops.#$b#Everyone needs a break now and then.$h",
+	"{{ModID}}.Rainy.4": "I hate going outside on days like this.#$e#My glasses get all fogged up and then I'm as blind with them on as I am without.",
+	"{{ModID}}.Rainy.5": "Ugh. I stepped in a puddle earlier and my socks are still soaked.",
+	"{{ModID}}.Rainy.6": "Wearing wet clothing can't actually make you sick, but I'd still recommend changing when you get home.#$b#Basic comfort is also important!"
+
+}

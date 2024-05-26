@@ -1,0 +1,32 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "GiftTasteDataTweaks",
+      "Action": "EditData",
+      "Target": "data/NPCGiftTastes/Leah",
+      "When": {
+        "GiftTastes": "Modded",
+        "DSVLeah": "true"
+      },
+      "entries": {
+        //Changes DSV Leah's Gift tastes to dislike alcohol, and to love tea and cider instead!
+        "Leah": "{{i18n: {{ModID}}.GiftLove.{{Random:1,2}} }}/numbers for cider and tea go here i think /{{i18n: {{ModID}}.GiftLike.{{Random:1,2}} }}/ more numbers for liked gifts /{{i18n: {{ModID}}.GiftDislike.{{Random:1,2}}}}/disliked gifts (alcohol) /{{i18n: {{ModID}}.GiftHate.{{Random:1,2}}}}/more numbers for hated gifts/{{i18n: {{ModID}}.GiftNeutral}}/more numbers for neutral gifts/"
+      }
+    },
+
+    {
+      "LogName": "MarriageSchedule_Edit_Mon",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Leah",
+      "When": {
+        "MarriageSchedule": "Modded",
+        "season": "summer, winter"
+      },
+      "entries": {
+        //not sure how to code this yet, scraped from possombreath
+        "marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Leah:marriage_Mon.000\"/1200 ArchaeologyHouse 16 9 0/1430 ArchaeologyHouse 14 4 3 leah_read \"Strings\\schedules\\Leah:marriage_Mon.002\"/1700 bed"
+      }
+    }
+  ]
+}

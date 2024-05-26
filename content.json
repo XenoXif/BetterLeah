@@ -1,0 +1,68 @@
+﻿{
+	"Format": "2.0.0",
+
+	"ConfigSchema": {
+		"GiftTastes": {
+			"AllowValues": "Modded, Vanilla",
+			"Default": "Modded"
+		},
+		"MarriageSchedule": {
+			"AllowValues": "Modded, Vanilla",
+			"Default": "Modded"
+		}
+
+	},
+	"DynamicTokens": [
+		{
+			"Name": "ModdedDialogCompat",
+			"Value": "true"
+		},
+		{
+			"Name": "ModdedDialogCompat",
+			"Value": "{{Random: true, false}}",
+			"When": {
+				"HasMod |contains= gizzymo.canonfriendlyexpansion": true
+			}
+		},
+
+		{
+			"Name": "DSVLeah",
+			"Value": "false"
+		},
+		{
+			"Name": "DSVLeah",
+			"Value": "true",
+			"When": {
+				"HasMod": "DSV.Core",
+				"Query: '{{DSV.Core/ConfigValue:LeahVariant}}' = 'Native' OR '{{HasMod |contains= DSVTeam.AddOnPack.JoLeah}}' = 'true'": true
+			},
+
+			"Changes": [
+
+				{
+					"LogName": "LeahMainDialogue",
+					"Action": "Include",
+					"FromFile": "data/dialogue.json"
+				},
+
+				{
+					"LogName": "LeahMarriedDialogue",
+					"Action": "Include",
+					"FromFile": "data/marriagedialogue.json"
+				},
+
+				{
+					"LogName": "LeahEventEdits",
+					"Action": "Include",
+					"FromFile": "data/events.json"
+				},
+
+				{
+					"LogName": "LeahExtraEdits",
+					"Action": "Include",
+					"FromFile": "data/othertweaks.json"
+				}
+			]
+		}
+	]
+}

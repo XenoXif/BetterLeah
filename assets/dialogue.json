@@ -1,0 +1,110 @@
+﻿{
+  "Changes": [
+
+    {
+      "LogName": "VanillaDialogueEdits",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "entries": {
+        //General
+        "Introduction": "{{i18n: {{ModID}}.intro}}",
+        "Beach": "{{ModID}}.Beach.{{Random:1,2}}",
+        
+        //Events
+
+        //Seasonal or Date Specific Dialogue
+
+        //Weekly or Hearts Dialogue
+        "Sun": "{{ModID}}.Sun.{{Random:1,2}}"
+      }
+    },
+    {
+      "LogName": "VanillaDialogueEdits_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "entries": {
+        "": "{{i18n: {{ModID}}.Rainy.{{Random:1,2,3,4,5}}}}"
+      }
+    },
+
+    {
+      "LogName": "ModdedDialogueEdits", //edits mod lines for canonicity
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "entries": {
+        //weekly or hearts dialogue
+        "Tue8": "{{i18n: {{ModID}}.Tue.{{Random:1,2}}}}",
+        "Wed10": "{{i18n: {{ModID}}.Wed.{{Random: 1,2}}}}"
+      },
+      "When": {
+        "HasMod | contains= gizzymo.canonfriendlyexpansion": true
+      }
+    },
+    {
+      "LogName": "ModdedDialogueCompat", //randomizes between compatable mods
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "entries": {
+        //Seasonal or Date Specific Dialogue
+        "Summer_Tue4": "{{i18n: {{ModID}}.}}",
+        ""
+        "Summer_Sat6": "{{i18n: {{ModID}}.",
+        ""
+      },
+      "When": {
+        "ModdedDialogCompat": true
+      }
+    }, 
+
+    {
+      "LogName": "ModdedDialogueEdits_DSVLeah", //extra dialogue unique to Native Leah
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "entries": {
+        //Seasonal or Date specific dialogue
+        "summer_Sat2": " " //overwrites CanonDialogues pescatarian line
+      },
+      "When": {
+        "DSVLeah": "True"
+      }
+    },
+    {
+      "LogName": "VanillaDialogueEdits_GiftTastes", //gift tastes for Native Leah
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "entries": {
+        //General
+        "Resort_Bar": "{{i18n: {{ModID}}.Resort}}",
+
+        //Seasonal or Date Specific Dialogue
+        "summer_Tue4": "{{i18n: {{ModID}}.Summer.Tue.1}}",
+
+        //Weekly or Hearts Dialogue
+        "Fri6": "{{i18n: {{ModID}}.Fri.{{Random:1,2}}}}"
+      },
+      "When": {
+        "DSVLeah": "True",
+        "GiftTastes": "Modded"
+      }
+    },
+    {
+      "LogName": "ModdedDialogueEdits_GiftTastes", //gift tastes for Native Leah
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "entries": {
+        //Seasonal or Date Specific Dialogue
+        "Summer_Tue6": "{{i18n: {{ModID}}.Summer.Tue.1}}",
+        "Summer_Tue8": "{{i18n: {{ModID}}.Summer.Tue.2}}",
+        "Summer_Wed8": "{{i18n: {{ModID}}.Fri.{{Random:1,2,3}}}}", 
+          
+        //Weekly or Hearts Dialogue  
+        "Mon4": "{{i18n: {{ModID}}.Mon.{{Random:1,2}}}}"
+      },
+      "When": {
+        "DSVLeah": "True",
+        "GiftTastes": "Modded",
+        "HasMod | contains= gizzymo.canonfriendlyexpansion": true
+      }
+    }
+  ]
+}
